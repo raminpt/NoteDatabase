@@ -103,21 +103,6 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
                         throwable -> {Toast.makeText(getContext(), user.getUsername() + " created", Toast.LENGTH_SHORT).show();
                         System.out.println("error on create user " + throwable.getMessage());
                 });
-
-//        noteDatabase.runInTransaction(new Runnable() {
-//            @Override
-//            public void run() {
-//                try {
-//                    noteStoreAbs.insert(user, pivotList);
-//                    Toast.makeText(getContext(), user.getUsername() + " created", Toast.LENGTH_SHORT).show();
-//                }
-//                catch (Exception e) {
-//                    Toast.makeText(getContext(), "error on create user", Toast.LENGTH_SHORT).show();
-//                    System.out.println("error on create user " + e.getMessage());
-//                }
-//
-//            }
-//        });
     }
 
 
