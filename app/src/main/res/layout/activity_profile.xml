@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProfileActivity">
+
+    <TextView
+        android:id="@+id/text_profile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user name"
+        android:textSize="20sp"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/button_profile_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/text_hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies:"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_profile_username" />
+
+    <TextView
+        android:id="@+id/text_hobbies_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_hobbies" />
+
+    <TextView
+        android:id="@+id/text_hobbies_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_hobbies_1" />
+
+    <TextView
+        android:id="@+id/text_hobbies_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/text_hobbies_2" />
+
+
+
+
+</RelativeLayout>
